@@ -8,7 +8,7 @@ void fatal(char *message){
 }
 
 // An error-checked malloc() wrapper function
-void *ec_mallod(unsigned int size){
+void *ec_malloc(unsigned int size){
     void *ptr;
     ptr = malloc(size);
     if (ptr == NULL)
